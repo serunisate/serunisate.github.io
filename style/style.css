@@ -1,6 +1,7 @@
 /* Start font */
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
-/* 
+/* End font */
+
 /* Start body */
 body{
    background-color:floralwhite;
@@ -55,7 +56,6 @@ h3 {
 .bg-blue { /*class*/
     background-color:blueviolet;
 }
-
 /* End debug*/
 
 /*start frame*/
@@ -298,9 +298,8 @@ span.b {
 /* end Tentang Kami */
 
 /* kode menu utama */
-
 ul {
-  list-style-type: none;
+  list-style: none;
   
 ul {
     list-style-type: none;
@@ -360,4 +359,15 @@ li a:hover {
 
 .active {
   background-color: #4CAF50;
+}
+
+/* start medsos */
+.medsos{
+text-align:left;
+display:inline-block;
+}
+/* end medsos */
+
+.menubawah li{
+  float:none;
 }
